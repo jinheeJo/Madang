@@ -19,4 +19,4 @@
      * 4S의 경우 throttle을 조금만 줘도 Output이 커져서 soaring 되는 현상 발견
      * 3S와 비교했을 thrust가 강함
    * 시도
-     * thrust max 값을 조정 -> 2000에서 1700으로 조정. trim도 1500으로 조정 (1600으로 조정시 값이 낮다고 arming이 안됨)
+     * throttle max 값을 조정 -> 2000에서 1700으로 조정. trim도 1350으로 조정 (1600으로 조정시 값이 낮다고 arming이 안됨)
