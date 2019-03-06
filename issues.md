@@ -23,5 +23,11 @@
      * 조정기의 throttle %를 60% 정도만 사용하도록 설정
  * 이슈 : 튜닝
    * 증상
-     * 
+     * 왼쪽으로 흐르는 현상
+   * 시도
+     * dead zone 확장
+     * RC의 input은 0으로 설정되는 것으로 확인 (정상)
+     * imu 정보를 확인하여 왜 기울어지는지 확인 필요
+
+     
    [![Tuning](http://img.youtube.com/vi/6JFssCqnl4E/0.jpg)](https://youtu.be/6JFssCqnl4E "Tuning Vehicle")
