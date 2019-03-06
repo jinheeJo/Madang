@@ -20,3 +20,8 @@
      * 3S와 비교했을 thrust가 강함
    * 시도
      * throttle max 값을 조정 -> 2000에서 1700으로 조정. trim도 1350으로 조정 (1600으로 조정시 값이 낮다고 arming이 안됨)
+     * 조정기의 throttle %를 60% 정도만 사용하도록 설정
+ * 이슈 : 튜닝
+   * 증상
+     * 
+   [![Tuning](http://img.youtube.com/vi/6JFssCqnl4E/0.jpg)](https://youtu.be/6JFssCqnl4E "Tuning Vehicle")
