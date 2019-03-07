@@ -28,6 +28,13 @@
      * dead zone 확장
      * RC의 input은 0으로 설정되는 것으로 확인 (정상)
      * imu 정보를 확인하여 왜 기울어지는지 확인 필요
-
      
    [![Tuning](http://img.youtube.com/vi/6JFssCqnl4E/0.jpg)](https://youtu.be/6JFssCqnl4E "Tuning Vehicle")
+   * 증상
+     * Altmode에서 roll, pitch drift 현상
+   * 시도
+     * 정밀한 Accel, gyro calibration
+     * parameter의 RC1_MAX - 2000, RC1_MIN - 1000, RC1_TRIM - 1500 / RC2_MAX - 2000, RC2_MIN - 1000, RC2_TRIM - 1500 설정
+     * RC의 ROLL, PITCH의 스틱이 중앙일 때 M.P RADIO 데이터가 1500이 나오도록 트림조절
+     * stabilize모드 비행하며 무게중심에 따른 drift는 RC trim으로 조절
+     
